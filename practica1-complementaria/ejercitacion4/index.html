@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ejercitacion 4 - Practica 1 Compl. - EG - 2022</title>
+  </head>
+
+  <body>
+    <form id="form4a" action="javascript:alert('Formulario envia:\n' + 'Nombre: ' + form4a.name.value)">
+      <fieldset>
+        <legend>Formulario 4.A</legend>
+        <p>
+          <label for="a-name">Nombre*: </label>
+          <input type="text" id="a-name" name="name" placeholder="Ej: Juan" required/>
+        </p>
+        <p>*: Campos requeridos</p>
+        <input type="submit" value="Enviar"/>
+      </fieldset>
+    </form>
+
+    <form id="form4b" action="javascript:alert('Formulario envia:\n' + 'Nombre: ' + form4b.name.value + '\nEmail de contacto: ' + form4b.email.value)">
+      <fieldset>
+        <legend>Formulario 4.B</legend>
+        <p>
+          <label for="b-name">Nombre*: </label>
+          <input type="text" id="b-name" name="name" required/>
+        </p>
+        <p>
+          <label for="b-email">Email de contacto: </label>
+          <input type="email" id="b-email" name="email" placeholder="juan@example.com"/>
+        </p>
+        <p>*: Campos requeridos</p>
+        <input type="submit" value="Enviar"/>
+      </fieldset>
+    </form>
+
+    <form id="form4c" action="javascript:alert('Formulario envia:\n' + 'Nombre de proyecto: ' + form4c.name.value + '\nFecha de inicio: ' + form4c.start.value + '\nFecha de fin: ' + form4c.end.value)">
+      <fieldset>
+        <legend>Formulario 4.C</legend>
+        <p>
+          <label for="c-name">Nombre de proyecto*: </label>
+          <input type="text" id="c-name" name="name" placeholder="Nuevo proyecto" required/>
+        </p>
+        <p>
+          <label for="c-start">Fecha de inicio*: </label>
+          <input type="date" id="c-start" name="start" required/>
+        </p>
+        <p>
+          <label for="c-end">Fecha de fin: </label>
+          <input type="date" id="c-end" name="end"/>
+        </p>
+        <p>*: Campos requeridos</p>
+        <input type="submit" value="Registrar"/>
+      </fieldset>
+    </form>
+
+    <form id="form4d" action="javascript:alert('Formulario envia:\n' + 'Nombre de etiqueta: ' + form4d.name.value + '\nColor de etiqueta: ' + form4d.color.value)">
+      <fieldset>
+        <legend>Formulario 4.D</legend>
+        <p>
+          <label for="d-name">Nombre de etiqueta*: </label>
+          <input type="text" id="d-name" name="name" required/>
+        </p>
+        <p>
+          <label for="d-color">Color de etiqueta*: </label>
+          <input type="color" id="d-color" name="color" value="#ff0000" required/>
+        </p>
+        <p>*: Campos requeridos</p>
+        <input type="submit" value="Registrar"/>
+      </fieldset>
+    </form>
+
+    <form id="form4e" action="javascript:alert('Formulario envia:\n' + 'Cantidad de personas: ' + form4e.quantity.value)">
+      <fieldset>
+        <legend>Formulario 4.E</legend>
+        <p>
+          <label for="e-quantity">Cantidad de personas*: </label>
+          <input type="number" id="e-quantity" name="quantity" min="1" max="5" required/>
+        </p>
+        <p>*: Campos requeridos</p>
+        <input type="submit" value="Buscar asientos"/>
+      </fieldset>
+    </form>
+
+  </body>
+</html>
