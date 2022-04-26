@@ -1,2 +1,4 @@
 
 ~*.docx
+~WRL*
+*_test*
