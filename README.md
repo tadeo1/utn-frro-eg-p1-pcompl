@@ -12,6 +12,8 @@ Resolución de prácticas para la materia Entornos Gráficos de la Facultad de R
   * practica3
 * Practica 4 (PHP parte 1) ```#6```
   * practica4
+* Practica 5 (PHP parte 2: mail y sesión) ```#7```
+  * practica5
 * Practica 8 (Accesibilidad y Usabilidad, Internacionalización, Independencia de Dispositivos) ```#4```
   * practica8
 * Practica 9 (Bootstrap) ```#5```
