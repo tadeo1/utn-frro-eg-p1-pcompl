@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulario para baja de ciudad (Ejercicio 2 - Practica 6 - EG - 2022 (1C))</title>
+  <style>
+    .aligned-form .group {
+      margin-bottom: 0.5em;
+    }
+    .aligned-form .group label {
+      text-align: right;
+      display: inline-block;
+      vertical-align: middle;
+      width: 13em;
+      margin-right: 1em;
+    }
+    .aligned-form .group input,
+    .aligned-form .group select {
+      display: inline-block;
+      vertical-align: middle;
+      width: 13em;
+    }
+    .aligned-form .group-center {
+      margin-top: 1.5em;
+      margin-left: 13em;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ABML de Ciudades - Baja</h1>
+  </header>
+  <section>
+    <form class="aligned-form" action="./result.php" method="post">
+      <fieldset>
+        <legend>Formulario de baja de Ciudad por nombre y país</legend>
+        <div class="group">
+          <label for="nombreciudad">Nombre</label>
+          <input type="text" id="nombreciudad" name="nombreciudad" required>
+        </div>
+        <div class="group">
+          <label for="pais">País</label>
+          <input type="text" id="pais" name="pais" required>
+        </div>
+
+        <div class="group-center">
+          <button type="submit">Hacer baja por nombre</button>
+        </div>
+      </fieldset>
+    </form>
+    <br><br>
+    <form class="aligned-form" action="./result.php" method="post">
+      <fieldset>
+        <legend>Formulario de baja de Ciudad por ID</legend>
+        <div class="group">
+          <label for="idciudad">ID</label>
+          <input type="number" id="idciudad" name="idciudad" required>
+        </div>
+
+        <div class="group-center">
+          <button type="submit">Hacer baja por ID</button>
+        </div>
+      </fieldset>
+    </form>
+    <br>
+    <p><a href="../index.html"><button>&leftarrow; Volver al inicio.</button></a></p>
+  </section>
+</body>
+
+</html>
