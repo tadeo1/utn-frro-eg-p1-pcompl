@@ -14,10 +14,10 @@ Resolución de prácticas para la materia Entornos Gráficos de la Facultad de R
   * practica4
 * Practica 5 (PHP parte 2: mail y sesión) ```#7```
   * practica5
-* Practica 6 (PHP parte 3: MySQLi) ```#8```
+* Practica 6 (PHP parte 3: bases de datos con MySQLi) ```#8```
   * practica6
-<!-- * Practica 7 (PHP parte 4: cookies) ```#8```
-  * practica7 -->
+* Practica 7 (PHP parte 4: cookies) ```#8```
+  * practica7
 * Practica 8 (Accesibilidad y Usabilidad, Internacionalización, Independencia de Dispositivos) ```#4```
   * practica8
 * Practica 9 (Bootstrap) ```#5```

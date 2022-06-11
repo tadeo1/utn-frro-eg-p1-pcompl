@@ -1,0 +1,47 @@
+body {
+  font: 10pt Arial;
+  background-color: lightgray;
+  color: black;
+}
+
+section {
+  float: left;
+  width: 70%;
+  border-right: solid 1px black;
+  margin: 0;
+}
+
+aside {
+  float: right;
+  width: 28%;
+  padding: 0;
+  margin: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.titular {
+  float: left;
+  width: 25%;
+  height: 200px;
+  margin: 0 8px 8px 0;
+  padding: 8px;
+  border: 2px grey solid;
+  border-radius: 8px;
+}
+
+.titular:hover {
+  background-color: lightblue;
+}
+
+.titular .small {
+  font-size: smaller;
+  margin-bottom: 4px;
+}
+
+.titular h3 {
+  margin-top: 0;
+}
