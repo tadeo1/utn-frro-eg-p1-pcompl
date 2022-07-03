@@ -1,5 +1,6 @@
 <?php
 session_start();
+$reemplazo = false;
 // Tomar valores de ingreso si hay
 $nombreusuario = isset($_POST['nombreusuario']) ? $_POST['nombreusuario'] : null;
 $clavehash = isset($_POST['clave']) ? password_hash($_POST['clave'], PASSWORD_DEFAULT) : null;
